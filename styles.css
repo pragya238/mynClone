@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    overflow-x: static;
+}
+.header{
+    display: flex;
+    margin: 0.5vw 0vw;
+    padding: 0 2rem;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(63, 63, 63, 0.1);
+    height: 4.5rem;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 60vw;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.home{
+    padding: 1rem;
+    display: inline;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: .3px;
+    color: #282c3f;
+    border-bottom: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.logo1{
+    width: 23%;
+}
+.right{
+    display: flex;
+}
+.search_icon{
+    width: 3%;
+}
+.search-bar{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    margin-left: 15vw;
+}
+.inp{
+    border: none;
+    padding: 1vw;
+    width: 70%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    margin: 1.5vw 0vw;
+}
+.image1{
+    width: 90%;
+}
+.para{
+    margin: 3vw 1vw;
+}
+.image2{
+    width: 100%;
+    margin: 1vw 0vw;
+}
+.para1{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 4rem 0 2rem 1rem;
+    max-height: 5em;
+    font-weight: 600;
+}
+.img3,.img4{
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
+}
+.image3,.image4{
+    width: 100%;
+}
+.para3,.para5{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 4rem 0 4rem 2rem;
+    max-height: 5em;
+    font-weight: 600;
+}
+.div1,.div2,.div3,.div4,.div5,.div6{
+    display: flex;
+    width: 100vw;
+}
+.image5,.image6,.image7,.image8,.image9{
+    width: 17vw;
+}
+.footerdiv{
+    background-color: #fafbfc;
+    display: flex;
+    padding: 4rem 10rem;
+}
+.footimg1{
+    width: 9vw;
+}
+.footimg3{
+    width: 8vw;
+}
+.footerhead{
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 2rem 2rem;
+}
+.ul > li{
+    color: #696b79;
+    font-size: 0.9rem;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.ul{
+    position: relative;
+    left: -18%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.social{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+.footimg2{
+    width: 2rem;
+}
